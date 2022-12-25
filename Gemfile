@@ -58,3 +58,8 @@ group :development do
   # gem "spring"
   gem 'annotate'
 end
+
+# Gemfile
+group :test do
+  gem 'database_cleaner-active_record'
+end
